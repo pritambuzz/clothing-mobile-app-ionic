@@ -14,6 +14,14 @@ Checkout this repo, install dependencies, then start application:
 > ionic serve
 ```
 
+### For issues w.r.t python on windows
+```
+> npm rebuild node-sass
+> npm --add-python-to-path='true' --debug install --global windows-build-tools
+> npm install --global node-gyp
+> npm nstall
+```
+
 You would need to install ionic cli if not already present. Pretty simple! enjoy.
 
 - Checkout store.json and product.json for API structure.
